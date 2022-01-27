@@ -33,6 +33,7 @@ body {
   background-image: url('../images/footer__img.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: -150px;
 }
 
 .footer__title {
@@ -115,6 +116,7 @@ body {
 .icons {}
 
 .icons__list {
+  margin-left: auto;
   width: 100px;
   list-style-type: none;
   margin-bottom: 50px;
