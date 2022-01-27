@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 *,
 *::after,
 *::before {
@@ -14,6 +14,75 @@ body {
   font-family: 'Livvic', sans-serif;
   background-color: #fff;
   min-height: 100vh;
+  font-family: 'Livvic', sans-serif;
+}
+.container{
+  width: 1110px;
+  margin: 0 auto;
+}
+#team{
+  background-color:#012f34;
+  padding-top: 140px;
+  padding-bottom: 200px;
+  background-image: url('../images/hero-img.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.team__span {
+  width: 50px;
+  height: 4px;
+  background-color: #f67e7e;
+  display: inline-block;
+  margin-bottom: 54px;
+}
+.team__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: #fff;
+}
+.team__list {
+  list-style: none;
+  position: relative;
+  top: 60px;
+}
+.team__title__wrapper{
+  margin-right: 132px;
+}
+.team__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+.team__item::before{
+  content: "";
+  width: 72px;
+  height: 72px;
+  background-image: url('../images/person.svg');
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 23px;
+}
+.individual__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f67e7e;
+  margin-bottom: 16px;
+}
+.individual__text {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  opacity: 0.8;
+}
+.team__item--second::before{
+  background-image: url('../images/settings.svg');
+}
+.team__item--third::before{
+  background-image: url('../images/productivity.svg');
+}
+=======
   display: flex;
   flex-direction: column;
   font-family: 'Livvic', sans-serif;
