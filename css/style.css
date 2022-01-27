@@ -32,7 +32,7 @@ body {
   height: 245px;
   background-image: url('../images/footer__img.svg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: bottom left;
   margin-left: -150px;
 }
 
